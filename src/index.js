@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import "./index.css"
-import GeoLocate from './GeoLocate';
-// import App from './App';
+// import GeoLocate from './GeoLocate';
+import App from './App';
 // import StarRating from './StarRating';
 // import CurrencyConverter from './challange/CurrencyConverter';
 
@@ -10,7 +10,7 @@ import GeoLocate from './GeoLocate';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* <App /> */}
+    <App />
     {/* <StarRating
       maxRating={5}
       messages={["S", "A", "P", "W", "T"]} />
@@ -18,7 +18,7 @@ root.render(
       maxRating={10} />
     <StarRating /> */}
     {/* <CurrencyConverter /> */}
-    <GeoLocate />
+    {/* <GeoLocate /> */}
   </React.StrictMode>
 );
 
